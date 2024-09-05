@@ -1,0 +1,98 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/Bus.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: #333;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.header ul li a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.header ul li a:hover {
+    background-color: #555;
+    color: red;
+}
+.header ul li a:visited{
+    background-color: #555;
+    color: white;
+}
+
+.hop {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hop h1 {
+    font-size: 2rem;
+    color: black;
+}
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.fox{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fox iframe{
+    width: 100%;
+    height: 78vh;
+}
